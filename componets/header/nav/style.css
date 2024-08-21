@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0;
+    padding-block: 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    padding-block:  8px;
+}
+button {
+    background-color: rgb(7, 7, 173);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size:  16px;
+    font-weight: normal;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-colos 0.3s ease;
+}
+button:houver {
+    background-color: #fff;
+}
+button:active {
+    background-color: #93aaf7;
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(6, 106, 221, 0.5);
+}
+img {
+    width: 150px;
+    height: auto;
+}
