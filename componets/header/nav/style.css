@@ -1,4 +1,6 @@
 nav{
+    color: aliceblue;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,22 +16,23 @@ nav ul{
 
     padding-block:  8px;
 }
-button {
-    background-color: rgb(7, 7, 173);
+.button-menu {
+    background-color: #0C50F1;
     color: #fff;
     border: none;
     padding: 10px 20px;
     font-size:  16px;
     font-weight: normal;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
-    transition: background-colos 0.3s ease;
+    transition: background-colos 0.6s ease;
+    border-radius: 15px;
 }
 button:houver {
     background-color: #fff;
 }
 button:active {
-    background-color: #93aaf7;
+    background-color: #fcfcfc;
 }
 button:focus {
     outline: none;
