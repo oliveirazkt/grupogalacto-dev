@@ -31,7 +31,6 @@ export default function Cards() {
       className="inner"
         drag="x"
         dragConstraints={{ right: 0, left: -width }}
-       
       >
         {empresas.map((e, i) => (
             <motion.div className="item" key={i}>

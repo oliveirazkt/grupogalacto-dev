@@ -3,7 +3,8 @@ import './style.css'
 
 export default function Footer() {
   return (
-    <footer className="container">
+    <footer >
+      <div className="container">
       <span>
         Travelgram &copy; 2024
       </span>
@@ -12,7 +13,8 @@ export default function Footer() {
       </span>
       <span>
         Politica de privacidade
-      </span>
+        </span>
+        </div>
     </footer>
   )
 }
